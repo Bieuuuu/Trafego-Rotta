@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RotaMetric</string>
+    <string name="accessibility_service_label">RotaMetric – Leitura de ofertas</string>
+    <string name="accessibility_service_description">O RotaMetric usa o serviço de acessibilidade exclusivamente para ler, na tela dos apps de motorista Uber e 99, o valor, a distância e o tempo das ofertas de corrida, e calcular localmente R$/km, R$/hora e lucro estimado. Nenhum dado de passageiro é coletado, nenhum clique é feito automaticamente e nada é enviado para a internet. Você pode desativar a qualquer momento.</string>
+
+    <string name="notification_channel_overlay">Overlay RotaMetric</string>
+    <string name="notification_channel_shift">Turno RotaMetric</string>
+    <string name="notification_overlay_title">RotaMetric ativo</string>
+    <string name="notification_overlay_text">Overlay de métricas em execução</string>
+    <string name="notification_shift_title">Turno em andamento</string>
+
+    <string name="overlay_mark_accepted">Marcar aceita</string>
+    <string name="overlay_mark_rejected">Marcar recusada</string>
+    <string name="overlay_close">Fechar</string>
+    <string name="overlay_fix_manually">Corrigir manualmente</string>
+    <string name="overlay_insufficient_data">Dados insuficientes</string>
+
+    <string name="level_excellent">Excelente</string>
+    <string name="level_attention">Atenção</string>
+    <string name="level_loss">Prejuízo</string>
+    <string name="level_unknown">Indefinido</string>
+
+    <string name="onboarding_welcome_title">Seu copiloto financeiro</string>
+    <string name="onboarding_welcome_body">O RotaMetric analisa cada oferta de corrida e mostra R$/km, R$/hora e lucro líquido estimado. Você decide. Tudo roda no seu aparelho, sem internet.</string>
+    <string name="onboarding_accessibility_title">Permissão de acessibilidade</string>
+    <string name="onboarding_accessibility_body">Para ler o valor, distância e tempo das ofertas exibidas pelos apps da Uber e da 99, o RotaMetric precisa do serviço de acessibilidade.\n\nO que lemos: valor da corrida, distâncias e tempos estimados.\nO que NÃO lemos: nome, foto, telefone, endereço ou localização do passageiro.\nO que NÃO fazemos: aceitar ou recusar corridas por você, nem enviar dados para servidores.</string>
+    <string name="onboarding_overlay_title">Janela flutuante</string>
+    <string name="onboarding_overlay_body">Mostramos uma pílula com o faturamento do dia e um card com a análise quando uma oferta aparece. Para isso é necessária a permissão “Sobrepor a outros apps”.</string>
+    <string name="onboarding_background_title">Execução em segundo plano</string>
+    <string name="onboarding_background_body">Durante o turno, um serviço em primeiro plano mantém a overlay e o cronômetro ativos. Uma notificação permanente ficará visível enquanto estiver rodando.</string>
+    <string name="onboarding_battery_title">Otimização de bateria</string>
+    <string name="onboarding_battery_body">Alguns aparelhos encerram apps em segundo plano. Para evitar que a overlay desapareça no meio do turno, recomendamos desativar a otimização de bateria para o RotaMetric. Isto é opcional.</string>
+    <string name="onboarding_diagnostics_title">Diagnóstico</string>
+    <string name="onboarding_settings_title">Configurações do veículo</string>
+    <string name="onboarding_next">Continuar</string>
+    <string name="onboarding_skip">Pular</string>
+    <string name="onboarding_finish">Começar</string>
+    <string name="onboarding_agree_accessibility">Entendi e concordo com o uso descrito</string>
+
+    <string name="perm_accessibility">Serviço de acessibilidade</string>
+    <string name="perm_overlay">Sobrepor a outros apps</string>
+    <string name="perm_notifications">Notificações</string>
+    <string name="perm_battery">Otimização de bateria desativada</string>
+    <string name="perm_uber_installed">Uber Driver instalado</string>
+    <string name="perm_99_installed">99 Motorista instalado</string>
+    <string name="perm_overlay_service">Serviço de overlay ativo</string>
+    <string name="perm_grant">Permitir</string>
+    <string name="perm_ok">OK</string>
+    <string name="perm_restricted_settings_hint">Se a opção estiver bloqueada por “Configurações restritas”, abra Configurações › Apps › RotaMetric › menu ⋮ › Permitir configurações restritas. Isso só acontece em instalações fora da Play Store.</string>
+
+    <string name="dashboard_title">Painel</string>
+    <string name="dashboard_today_revenue">Faturamento hoje</string>
+    <string name="dashboard_net_profit">Lucro estimado</string>
+    <string name="dashboard_accepted">Aceitas</string>
+    <string name="dashboard_rejected">Recusadas</string>
+    <string name="dashboard_start_shift">Iniciar turno</string>
+    <string name="dashboard_end_shift">Encerrar turno</string>
+    <string name="dashboard_overlay_on">Ativar overlay</string>
+    <string name="dashboard_overlay_off">Desativar overlay</string>
+    <string name="dashboard_manual_entry">Registrar corrida manual</string>
+
+    <string name="reports_title">Relatórios</string>
+    <string name="reports_export_csv">Exportar CSV</string>
+    <string name="reports_empty">Nenhuma corrida registrada ainda.</string>
+    <string name="reports_distance">Distância total</string>
+    <string name="reports_time">Tempo total</string>
+    <string name="reports_avg_km">Média R$/km</string>
+    <string name="reports_avg_hour">Média R$/h</string>
+    <string name="reports_fuel">Combustível</string>
+
+    <string name="settings_title">Configurações</string>
+    <string name="settings_fuel_price">Preço do combustível (R$/L)</string>
+    <string name="settings_consumption">Consumo (km/L)</string>
+    <string name="settings_min_per_km">Meta mínima R$/km</string>
+    <string name="settings_min_per_hour">Meta mínima R$/h</string>
+    <string name="settings_hourly_cost">Custo operacional por hora (R$)</string>
+    <string name="settings_platform_fee">Taxa estimada da plataforma (%%)</string>
+    <string name="settings_yellow_margin">Margem do semáforo amarelo (%%)</string>
+    <string name="settings_save">Salvar</string>
+
+    <string name="nav_dashboard">Painel</string>
+    <string name="nav_reports">Relatórios</string>
+    <string name="nav_settings">Ajustes</string>
+</resources>

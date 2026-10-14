@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="overlay_background">#E6121417</color>
+    <color name="overlay_pill_background">#F01C1F24</color>
+    <color name="overlay_border">#33FFFFFF</color>
+    <color name="overlay_text_primary">#FFFFFFFF</color>
+    <color name="overlay_text_secondary">#B3FFFFFF</color>
+    <color name="semaphore_green">#FF2ECC71</color>
+    <color name="semaphore_yellow">#FFF1C40F</color>
+    <color name="semaphore_red">#FFE74C3C</color>
+    <color name="semaphore_gray">#FF7F8C8D</color>
+    <color name="brand_primary">#FF00B894</color>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "RotaMetric - Copiloto Financeiro para Motoristas",
+  "description": "Copiloto financeiro para motoristas Uber e 99 com análise de lucro em tempo real, semáforo de viabilidade, rastreamento de turnos e código Android nativo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

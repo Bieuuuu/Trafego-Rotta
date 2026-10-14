@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="overlay_card_radius">20dp</dimen>
+    <dimen name="overlay_pill_radius">28dp</dimen>
+    <dimen name="overlay_card_padding">16dp</dimen>
+    <dimen name="overlay_pill_padding_h">16dp</dimen>
+    <dimen name="overlay_pill_padding_v">10dp</dimen>
+    <dimen name="overlay_card_width">300dp</dimen>
+</resources>
